@@ -1,3 +1,10 @@
 Week 0 Scratch
 
-1st completed 33:47
+dd/mm/yyyy
+Date: 06/09/2026
+    1st completed 33:47
+
+
+
+
+    
