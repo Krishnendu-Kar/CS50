@@ -1,4 +1,5 @@
 Link: https://cs50.harvard.edu/x/weeks/0/
+Notes: https://cs50.harvard.edu/x/notes/0/
 
 1. in terminal type 
     code <filename> 
