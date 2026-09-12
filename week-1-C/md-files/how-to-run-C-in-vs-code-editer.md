@@ -1,17 +1,9 @@
-In PowerShell, from anywhere:
+In PowerShell, from anywhere run this command
 
-gcc "C:\Users\sukri\Documents\GitFirst\CS50\week-1-C\first.c" -o "C:\Users\sukri\Documents\GitFirst\CS50\week-1-C\first.exe"
-& "C:\Users\sukri\Documents\GitFirst\CS50\week-1-C\first.exe"
+gcc <file-location> -o <output-exe-file-location>
 
-Or cd into the folder first, which is less typing:
+<file-location> : This define which file to compile.
 
-cd C:\Users\sukri\Documents\GitFirst\CS50\week-1-C
-gcc first.c -o first.exe
-.\first.exe
+<output-exe-file-location> : This defines where and in which name the output file will come 
 
-Two things to watch for on your setup:
-
-- .\ is required to run the exe — PowerShell won't run programs from the current directory without it.
-- #include <cs50.h> won't compile — you don't have the CS50 library locally. If the file uses get_string/get_int, either use the CS50 codespace/web IDE, or swap to plain C (scanf / fgets with stdio.h).
-
-Useful flags while learning: gcc -Wall -g first.c -o first.exe turns on warnings and debug info.
+Example: gcc ./c-files/loop.c -o ./exe-files/loop.exe
