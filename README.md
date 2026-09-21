@@ -17,8 +17,8 @@ I'm a first-year IT student. CS50 is where I learn C properly — pointers, memo
 | Week | Topic | Problem Set | Status |
 |:---:|---|---|:---:|
 | 0 | Scratch | Scratch project | ✅ |
-| 1 | C | Hello, Mario, Cash/Credit | 🟨 |
-| 2 | Arrays | Scrabble, Readability, Caesar | ⬜ |
+| 1 | C | Hello, Mario, Cash/Credit | ✅ |
+| 2 | Arrays | Scrabble, Readability, Caesar | 🟨 |
 | 3 | Algorithms | Plurality, Runoff, Tideman | ⬜ |
 | 4 | Memory | Volume, Filter, Recover | ⬜ |
 | 5 | Data Structures | Inheritance, Speller | ⬜ |
