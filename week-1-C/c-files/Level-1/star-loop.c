@@ -44,7 +44,7 @@ int main(void){
 
 int input_height(void){
 
-    int idx,co,height;
+    const int idx,co,height;
 
     printf("Enter height (f): ");
     scanf("%d",&height);
