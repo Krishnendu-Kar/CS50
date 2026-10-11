@@ -1,6 +1,8 @@
 #include <stdio.h>
 
+int global= 3;
 int main(void){
+    printf("%d\n",global);
     int scores[3];
 
     for(int i=0; i<3;i++){
