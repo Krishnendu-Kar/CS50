@@ -2,8 +2,8 @@ Those characters who are not displayed in screen directly are called control cha
 Some most used Control Characters in C:
 ' '  => Spac
 \n  => New line
-\t  => Tab 
-\v  => Ulambo Tab
+\t  => Horizontal Tab 
+\v  => vertical Tab
 \b  => Backspace 
 \r  => Cariage return
 \a  => Alert or bell

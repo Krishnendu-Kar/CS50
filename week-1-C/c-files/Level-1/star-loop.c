@@ -64,3 +64,45 @@ int print_height(int height){
         printf("\n");
     }
 }
+
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main() {
+//     for (int i = -2; i <= 2; i++) {
+//         int s = abs(i);
+//         for (int j = 0; j < s; j++) putchar(' ');
+//         for (int j = 0; j < 5 - 2 * s; j++) putchar('*');
+//         putchar('\n');
+//     }
+//     return 0;
+// }
+
+
+#include <stdio.h>
+
+int main() {
+    int size = 5;  
+    int row, space, star;
+
+    for (row = 1; row <= size; row++) {
+        for (space = 1; space <= size - row; space++) {
+            printf(" ");
+        }
+        for (star = 1; star <= 2 * row - 1; star++) {
+            printf("*");
+        }
+        printf("\n");  
+    }
+    for (row = size - 1; row >= 1; row--) {
+        for (space = 1; space <= size - row; space++) {
+            printf(" ");
+        }
+        for (star = 1; star <= 2 * row - 1; star++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
